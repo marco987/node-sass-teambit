@@ -3,5 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  list-style: none;
 }
+
+// Dichiarazione varibili
+$mainBgColor: #FFE7D2;
+$mainTextColor: #58402C;
+$hoverColor: #364D91;
+
+// Import degli altri scss
+@import "header";
+@import "sec1";
+@import "sec2";
+@import "sec3";
+@import "sec4";
+@import "footer";
