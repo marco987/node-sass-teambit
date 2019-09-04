@@ -1,3 +1,74 @@
 #sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+  height: 500px;
+}
 
+.sec1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: $mainTextColor;
+  padding-right: 50px;
+
+  h1 {
+    font-size: 3em;
+    line-height: 80px;
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 0.9em;
+  }
+
+  p:hover {
+    cursor: pointer;
+    color: $hoverColor;
+  }
+
+}
+
+.sign-up {
+  display: flex;
+
+  span {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $hoverColor;
+    color: #fff;
+    border-radius: 10px;
+
+  }
+
+  span:hover {
+    cursor: pointer;
+    background-color: #30488F;
+  }
+
+  #or {
+    background-color: #fff;
+    color: grey;
+    width: 50px;
+  }
+
+  #or:hover {
+    cursor: default;
+  }
+
+}
+
+.illustration-main {
+  height: 70%;
 }

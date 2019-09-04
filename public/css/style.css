@@ -40,6 +40,78 @@ header nav ul li:hover {
   color: #364D91;
 }
 
+#sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+  height: 500px;
+}
+
+.sec1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #58402C;
+  padding-right: 50px;
+}
+
+.sec1-text h1 {
+  font-size: 3em;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.sec1-text h3 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.sec1-text p {
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+
+.sec1-text p:hover {
+  cursor: pointer;
+  color: #364D91;
+}
+
+.sign-up {
+  display: flex;
+}
+
+.sign-up span {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #364D91;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.sign-up span:hover {
+  cursor: pointer;
+  background-color: #30488F;
+}
+
+.sign-up #or {
+  background-color: #fff;
+  color: grey;
+  width: 50px;
+}
+
+.sign-up #or:hover {
+  cursor: default;
+}
+
+.illustration-main {
+  height: 70%;
+}
+
 #sec2 {
   background-color: #FFE7D2;
 }
