@@ -1,3 +1,35 @@
 #sec2 {
   background-color: $mainBgColor;
+
+  article {
+    margin: 0 100px;
+    color: $mainTextColor;
+  }
+
+  h2 {
+    margin: 80px auto;
+  }
+
+}
+
+.art1, .art2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rigaBoxini {
+  @extend %rigaBoxini;
+}
+
+.boxino {
+  @extend %boxino;
+}
+
+.imgCentrale {
+  @extend %imgCentrale;
+}
+
+.art2 {
+  border-top: solid 1px #BDB5AF;
 }
